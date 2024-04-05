@@ -10,5 +10,5 @@ RUN npm install
 
 #Comando ridondante utilizzando i volumes
 COPY --chown=node:node ./ ./
-
+EXPOSE 80
 CMD ["npm","start"] 
